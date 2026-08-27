@@ -23,7 +23,7 @@ luiz = Aluno("Luiz Augusto", 2026001, 8.0, 6.0)
 print(luiz.nome, luiz.matricula, luiz.n1, luiz.n2)
 print (luiz.media(), luiz.esta_aprovado())
 
-#Encapasulamento
+#Encapsulamento
 
 class Aluno:
     def __init__(self, nome):
@@ -32,11 +32,11 @@ class Aluno:
 
     def get_n1(self): # leitura controlada
         return self.__n1
-def set_n1(self, valor): # escrita COM VALIDAÇÃO
-    if 0 <= valor <= 10:
-        self.__n1 = valor
-    else:
-        print("Nota inválida! Informe de 0 a 10.")
+    def set_n1(self, valor): # escrita COM VALIDAÇÃO
+        if 0 <= valor <= 10:
+            self.__n1 = valor
+        else:
+            print("Nota inválida! Informe de 0 a 10.")
 
 ana = Aluno("Ana")
 ana.set_n1(8) # aceita
