@@ -32,7 +32,6 @@ class Professor(Pessoa):
         print(f"{self.nome} - {self.cpf} - {self.idade} - {self.siape} - {self.titulacao}")
 
 luiz = Aluno("Luiz", "000.000.000-00", 20, "2023001", "BSI")
-luiz.situacao(9.5)
 wendell = Professor("Wendell", "000.000.000-01", 30, "123456", "Mestrado")
 
 print(luiz.nome)

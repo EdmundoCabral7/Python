@@ -1,0 +1,17 @@
+PROJETO ENTREGAJA LOGISTICA
+Topicos Avancados de Programacao - UNI-RN - 2026.2
+
+COMO ABRIR
+  1. Descompacte esta pasta.
+  2. No VS Code: Arquivo > Abrir Pasta > selecione entregaja
+  3. Abra o main.py e execute com o botao de play.
+
+ARQUIVOS
+  main.py ............ cenario de demonstracao (comece por aqui)
+  localizacao.py ..... Cidade e Destinatario
+  encomendas.py ...... as modalidades de encomenda
+  entregador.py ...... o entregador e a sua carga
+  transportadora.py .. cadastro, despacho e relatorios
+
+As questoes estao no Moodle. Voce pode executar e alterar o codigo
+a vontade para testar suas hipoteses.
